@@ -29,8 +29,8 @@ Right now, I am focusing on building a deep conceptual understanding of systems 
 
 - 🛡️ **Cyber Security:** Learning packet inspection, network defense, and system tracking.
 - 🤖 **AI & ML:** Playing around with data manipulation libraries to see how machines find patterns.
-- 🧩 **DSA:** Grinding Data Structures and Algorithms in Java and Python to think logically.
-- 🌐 **Web Labs:** Playing with UI design layouts using modern frontend tools.
+- 🧩 **DSA:** Grinding Data Structures and Algorithms in Java, C++, and Python to think logically.
+- 🌐 **Web Labs & DevOps:** Playing with UI layouts and setting up containerized environments for smooth deployment.
 
 <br clear="right"/>
 
@@ -42,6 +42,7 @@ Right now, I am focusing on building a deep conceptual understanding of systems 
 
 ### 💻 Core Programming Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -65,11 +66,12 @@ Right now, I am focusing on building a deep conceptual understanding of systems 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C8BC?style=flat-square&logo=netlify&logoColor=white)
 
-### 🛠️ Lab Environments & Code Control
+### 🛠️ Containerization, Lab Environments & Code Control
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
