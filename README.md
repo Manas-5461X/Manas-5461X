@@ -19,59 +19,63 @@
 
 ---
 
-## 🎓 Developer Profile 
+## 🎓 About Me 
 
 <img align="right" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="260" alt="Developer GIF" />
 
-Hello! I'm **Manas Gandhi**, a passionate student exploring the wide world of computer science and technology. Instead of sticking to just one track, I love experimenting at the intersection of network architecture, intelligent algorithms, and secure programming.
+Hey, I'm **Manas Gandhi** — a full-stack developer and AI practitioner building production-grade applications and intelligent systems. I work across the entire stack, from designing RESTful APIs and scalable backend services to crafting responsive frontends with modern frameworks.
 
-Right now, I am focusing on building a deep conceptual understanding of systems while getting my hands dirty with real code and open-source experiments.
+My recent focus has been on applied AI — I've built a **RAG-powered chatbot** and a **RAG-based resume parser** using LangChain, vector databases, and LLM APIs. I'm equally comfortable shipping a complete MERN application or hardening a Linux server.
 
-- 🛡️ **Cyber Security:** Learning packet inspection, network defense, and system tracking.
-- 🤖 **AI & ML:** Playing around with data manipulation libraries to see how machines find patterns.
-- 🧩 **DSA:** Grinding Data Structures and Algorithms in Java, C++, and Python to think logically.
-- 🌐 **Web Labs & DevOps:** Playing with UI layouts and setting up containerized environments for smooth deployment.
+- 🤖 **AI & RAG Systems:** Building retrieval-augmented generation pipelines, LLM-powered tools, and intelligent document processing systems.
+- 🌐 **Full-Stack Development:** Shipping end-to-end MERN applications — React frontends, Node.js/Express APIs, and MongoDB data layers.
+- 🛡️ **Cyber Security:** Packet analysis, network defense, intrusion detection, and secure system architecture.
+- 🧩 **DSA & Problem Solving:** Solving algorithmic challenges in Java and Python to sharpen systems thinking.
 
 <br clear="right"/>
 
 ---
 
-## 🎛️ My Learning Toolkit & Tech Stack
+## 🎛️ Tech Stack
 
 <div align="center">
 
-### 💻 Core Programming Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+### 💻 Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-### 🧠 Intelligent Models & Data Exploration
+### 🤖 AI & RAG
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E44AD?style=flat-square&logo=google&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Gemini AI](https://img.shields.io/badge/Gemini_AI-8E44AD?style=flat-square&logo=google&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-### 🎨 Creating User Interfaces
+### 🌐 Full-Stack (MERN)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### ☁️ Cloud, Databases & Auth Ecosystems
+### ☁️ Cloud, Databases & Infra
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C8BC?style=flat-square&logo=netlify&logoColor=white)
 
-### 🛠️ Containerization, Lab Environments & Code Control
+### 🛠️ DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 </div>
 
@@ -97,7 +101,7 @@ Right now, I am focusing on building a deep conceptual understanding of systems 
 
 <br/><br/>
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Manas-5461X&theme=dracula&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" />
+<img width="100%" src="./trophy.svg" alt="GitHub Profile Trophies" />
 
 </div>
 
