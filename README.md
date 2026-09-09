@@ -81,12 +81,21 @@ Right now, I am focusing on building a deep conceptual understanding of systems 
 
 <div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Contributions-570++_Total-A855F7?style=for-the-badge&logo=github&logoColor=white" alt="Total Contributions" />
-  <img src="https://img.shields.io/badge/Current_Streak-Active-success?style=for-the-badge&logo=git&logoColor=white" alt="Current Streak" />
-</p>
+<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
 <br/>
+
+<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+
+<br/>
+
+<img src="./langs.svg" width="620" alt="Top languages"/>
+
+<br/>
+
+<img src="./year.svg" width="620" alt="The year as a character map"/>
+
+<br/><br/>
 
 <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Manas-5461X&theme=dracula&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" />
 
@@ -114,3 +123,4 @@ Right now, I am focusing on building a deep conceptual understanding of systems 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B21A8,100:0D1117&height=120&section=footer" width="100%"/>
 
 </div>
+
