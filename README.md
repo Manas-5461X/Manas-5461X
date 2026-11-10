@@ -16,12 +16,10 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-contact-dark.svg" /><img src="./cards/title-contact-light.svg" width="100%" alt="Get in touch" /></picture><br>
 <img src="./cards/contact.svg" width="100%" alt="Get in Touch with Manas Gandhi: GitHub, LinkedIn, Email, Portfolio." /><br>
 <a href="https://github.com/Manas-5461X"><img src="./cards/btn-github.svg" width="25%" alt="GitHub: View repos" /></a><a href="https://www.linkedin.com/in/manas-gandhi-09a341375/"><img src="./cards/btn-linkedin.svg" width="25%" alt="LinkedIn: Chat and connect" /></a><a href="mailto:manasgandhi684@gmail.com"><img src="./cards/btn-email.svg" width="25%" alt="Email: Mail me" /></a><a href="https://manas-5461x.github.io/my-website/"><img src="./cards/btn-portfolio.svg" width="25%" alt="Portfolio: Visit site" /></a><br>
-<img src="./cards/views.svg" width="100%" alt="Profile Reach: All-time profile views" />
+<img src="./cards/views.svg" width="74%" alt="Profile Reach: Thanks for stopping by" /><img src="https://github-view-counter.vercel.app/api?username=Manas-5461X&base=428&label=LIVE+VIEWS&bgColor=%23f3f3f1&color=%232f55ff&labelColor=%236e6e73&iconColor=%232f55ff&size=12&layout=vertical&style=rounded" width="26%" alt="Live profile views counter" />
 </div>
 
 <div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Manas-5461X&color=0D1117&style=flat-square&label=" width="1" height="1" alt="" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2F55FF,60:1A3BE0,100:0D1117&height=120&section=footer" width="100%"/>
 

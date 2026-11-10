@@ -975,48 +975,29 @@ def contact_buttons():
 
 
 # ---- 7 · profile views card ---------------------------------------------------
-def fetch_profile_views():
-    """Fetch current profile view count from komarev without overwriting on failure."""
-    views = "424"
-    try:
-        import requests
-
-        r = requests.get(
-            f"https://komarev.com/ghpvc/?username={GH_USER}&style=for-the-badge",
-            timeout=10,
-        )
-        if r.ok:
-            m = re.search(r"PROFILE VIEWS:\s*([\d,]+)", r.text, re.I)
-            if m:
-                views = m.group(1).replace(",", "")
-    except Exception as e:
-        print(f"profile views unavailable, using default: {e}")
-    return views
-
-
-def views_card(views_str):
-    h = 96
+def views_card():
+    """Left panel of the Profile Reach row; pairs flush with the live counter SVG."""
+    h = 92.5
+    card_w = 0.74 * W - GAP  # 639.2px drawn + 12px gap = 74% total width
     body = f"""
-<rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
+<rect width="{card_w:.3f}" height="{h}" rx="12" fill="{PAPER}"/>
 <g class="f" {d(0.1)}>
-  <rect class="live" x="44" y="29" width="8" height="8" rx="2" fill="{TECH}"/>
-  <text x="62" y="37" font-family="{MONO}" font-size="11" letter-spacing="1.2" fill="{MUTED}">PROFILE REACH</text>
+  <rect class="live" x="40" y="25" width="8" height="8" rx="2" fill="{TECH}"/>
+  <text x="58" y="33" font-family="{MONO}" font-size="11" letter-spacing="1.2" fill="{MUTED}">PROFILE REACH</text>
 </g>
-<text class="r" {d(0.18)} x="42" y="72" font-family="{SERIF}" font-size="32" fill="{INK}">Thanks for <tspan font-style="italic" fill="{TECH}">stopping by</tspan></text>
-<rect x="570" y="20" width="1" height="56" fill="{RULE}"/>
-<g class="r" {d(0.25)}>
-  {count_up(f"{views_str}+", "views", 602, 58, f'font-family="{SERIF}" font-size="38" fill="{TECH}"', 0.35)}
-  <text x="602" y="77" font-family="{MONO}" font-size="10.5" letter-spacing="1" fill="{MUTED}">ALL-TIME PROFILE VIEWS</text>
-</g>
+<text class="r" {d(0.18)} x="38" y="69" font-family="{SERIF}" font-size="32" fill="{INK}">Thanks for <tspan font-style="italic" fill="{TECH}">stopping by</tspan></text>
+<text class="f" {d(0.28)} x="{card_w - 26:.1f}" y="51" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{MUTED}">REAL-TIME VIEWS &#8594;</text>
 """
     write(
         "views.svg",
         svg(
-            W,
+            card_w,
             h,
             body,
             ["serif", "serif-i", "mono"],
-            f"Profile Reach: {views_str}+ all-time profile views.",
+            "Profile Reach: Thanks for stopping by.",
+            right=GAP,
+            bottom=0,
         ),
     )
 
@@ -1113,4 +1094,4 @@ if __name__ == "__main__":
         section_title(slug, text, italic, "light", delay)
     contact()
     contact_buttons()
-    views_card(fetch_profile_views())
+    views_card()
