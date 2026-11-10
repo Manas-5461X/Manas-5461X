@@ -4,7 +4,7 @@ name: refresh stats
 # trigger would make it re-run on its own commit.
 on:
   schedule:
-    - cron: "17 5 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,11 +23,29 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Draw the stat graphics
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install card dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Draw the monochrome stat graphics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_LOGIN: ${{ github.repository_owner }}
         run: python3 scripts/generate_stats.py
+
+      - name: Scrape real contribution data for cards
+        env:
+          GH_PROFILE_USER: ${{ github.repository_owner }}
+        run: python3 scripts/fetch_contributions.py
+
+      - name: Render README cards (hero, heatmap, activity, achievements, repos)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PROFILE_USER: ${{ github.repository_owner }}
+        run: python3 scripts/render_readme_cards.py
 
       - name: Generate trophy card
         uses: soulteary/github-profile-trophy-action@v1.0.0
@@ -38,7 +56,7 @@ jobs:
 
       - name: Commit whatever changed
         run: |
-          FILES="stats.svg streak.svg langs.svg year.svg hd-*.svg trophy.svg"
+          FILES="stats.svg streak.svg langs.svg year.svg hd-*.svg trophy.svg data/contributions.json data/stats.json cards/*.svg"
           if [ -z "$(git status --porcelain -- $FILES)" ]; then
             echo "no change"
             exit 0

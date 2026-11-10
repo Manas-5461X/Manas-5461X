@@ -15,7 +15,7 @@ the edge. Motion is SMIL because GitHub strips <script> from READMEs.
 
 Env:
   GITHUB_TOKEN  required
-  GH_LOGIN      user to summarise (default: andriidrok1)
+  GH_LOGIN      user to summarise (default: Manas-5461X)
   OUT_DIR       where to write (default: repository root)
 """
 import base64
@@ -465,6 +465,9 @@ def main():
     out_dir = os.environ.get("OUT_DIR", ".")
 
     s = summarise(fetch(login, token))
+    os.makedirs(os.path.join(out_dir, "data"), exist_ok=True)
+    with open(os.path.join(out_dir, "data", "stats.json"), "w", encoding="utf-8") as f:
+        json.dump(s, f, indent=2)
     files = {"stats.svg": draw_stats(s), "streak.svg": draw_streak(s),
              "langs.svg": draw_langs(s), "year.svg": draw_year(s)}
     for word in ("about", "stack", "projects", "stats", "about this page"):
