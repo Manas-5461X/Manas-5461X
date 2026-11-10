@@ -812,13 +812,14 @@ def repo_card(i, name, desc, lang, color, stars):
     )
 
 
-def section_title(text, italic, theme):
+def section_title(slug, text, italic, theme, delay=0.35):
     fg = "#e6edf3" if theme == "dark" else INK
+    accent = "#6b8bff" if theme == "dark" else TECH
     body = (
-        f'<text class="r" {d(4.4)} x="2" y="46" font-family="{SERIF}" font-size="34" fill="{fg}">{escape(text)} '
-        f'<tspan font-style="italic">{escape(italic)}</tspan></text>'
+        f'<text class="r" {d(delay)} x="2" y="46" font-family="{SERIF}" font-size="34" fill="{fg}">{escape(text)} '
+        f'<tspan font-style="italic" fill="{accent}">{escape(italic)}</tspan></text>'
     )
-    write(f"title-coding-{theme}.svg", svg(W, 64, body, ["serif", "serif-i"], f"{text} {italic}", bottom=0))
+    write(f"title-{slug}-{theme}.svg", svg(W, 64, body, ["serif", "serif-i"], f"{text} {italic}", bottom=0))
 
 
 # ---- 5 · blue contribution graph -----------------------------------------------
@@ -1100,8 +1101,16 @@ if __name__ == "__main__":
     )
     for i, (name, desc, lang, color) in enumerate(REPOS):
         repo_card(i, name, desc, lang, color, stars.get(name, 0))
-    section_title("What I'm", "coding", "dark")
-    section_title("What I'm", "coding", "light")
+    for slug, text, italic, delay in (
+        ("about", "About", "me", 0.25),
+        ("stack", "My tech", "stack", 0.35),
+        ("cycle", "My contribution", "cycle", 0.45),
+        ("achieved", "What I've", "achieved", 0.55),
+        ("coding", "What I'm", "coding", 0.65),
+        ("contact", "Get in", "touch", 0.75),
+    ):
+        section_title(slug, text, italic, "dark", delay)
+        section_title(slug, text, italic, "light", delay)
     contact()
     contact_buttons()
     views_card(fetch_profile_views())
