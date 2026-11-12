@@ -60,7 +60,7 @@
 <!-- Row 3: THE YEAR -->
 <g class="f" style="animation-delay:0.42s">
   <text x="44" y="388" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.2" fill="#6e6e73">THE YEAR</text>
-  <text x="44" y="407" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="12.5" fill="#3a3a3c">141 of 368 days had a contribution</text>
+  <text x="44" y="407" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="12.5" fill="#3a3a3c">141 of 369 days had a contribution</text>
   <text x="752" y="407" text-anchor="end" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#6e6e73">less</text>
   <text xml:space="preserve" x="760" y="407" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#111111">: + # @</text>
   <text x="836" y="407" text-anchor="end" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#6e6e73">more</text>
