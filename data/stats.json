@@ -1,6 +1,6 @@
 {
-  "total": 969,
-  "active": 142,
+  "total": 974,
+  "active": 143,
   "best_week": 81,
   "weekly": [
     0,
@@ -55,15 +55,10 @@
     0,
     25,
     42,
-    24
+    29
   ],
   "weeks": [
     [
-      {
-        "contributionCount": 0,
-        "date": "2025-11-13",
-        "weekday": 4
-      },
       {
         "contributionCount": 0,
         "date": "2025-11-14",
@@ -1984,16 +1979,21 @@
         "weekday": 3
       },
       {
-        "contributionCount": 2,
+        "contributionCount": 3,
         "date": "2026-11-12",
         "weekday": 4
+      },
+      {
+        "contributionCount": 4,
+        "date": "2026-11-13",
+        "weekday": 5
       }
     ]
   ],
   "current": {
-    "length": 7,
+    "length": 8,
     "start": "2026-11-06",
-    "end": "2026-11-12"
+    "end": "2026-11-13"
   },
   "longest": {
     "length": 12,
@@ -2003,15 +2003,15 @@
   "by_size": [
     [
       "TypeScript",
-      1372753
+      1682509
     ],
     [
       "CSS",
-      750704
+      774656
     ],
     [
       "HTML",
-      730142
+      735375
     ],
     [
       "JavaScript",
@@ -2036,11 +2036,11 @@
       3
     ],
     [
-      "HTML",
-      2
+      "TypeScript",
+      3
     ],
     [
-      "TypeScript",
+      "HTML",
       2
     ]
   ]
