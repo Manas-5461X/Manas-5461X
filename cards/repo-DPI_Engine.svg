@@ -36,6 +36,6 @@
   <rect x="24" y="30" width="8" height="8" rx="2" fill="#2f55ff"/>
   <text x="40" y="39" font-family="Geist, system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#111111">DPI_Engine</text>
   <text x="24" y="72" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="14" fill="#3a3a3c">Deep Packet Inspection engine</text><text x="24" y="93" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="14" fill="#3a3a3c">inspecting packet payloads &amp; SNI</text><text x="24" y="114" font-family="Geist, system-ui, -apple-system, sans-serif" font-size="14" fill="#3a3a3c">beyond firewall headers.</text>
-  <text x="24" y="152" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#6e6e73">Python  ·  ★ 23</text>
+  <text x="24" y="152" font-family="'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#6e6e73">Python  ·  ★ 24</text>
 </g>
 </svg>

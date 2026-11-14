@@ -892,7 +892,7 @@ def contact():
         ("GitHub", "@Manas-5461X", "#111111", "GH"),
         ("LinkedIn", "manas-gandhi", "#0A66C2", "in"),
         ("Email", "manasgandhi684@gmail.com", "#EA4335", "M"),
-        ("Portfolio", "manas-5461x.github.io", TECH, "↗"),
+        ("Portfolio", "manasgandhi.pages.dev", TECH, "↗"),
     ]
     tile_svgs = []
     for i, (label, sub, accent, badge_txt) in enumerate(boxes):
