@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/Manas-5461X" target="_blank"><img src="./cards/hero.svg" width="100%" alt="Manas Gandhi. Full-Stack Developer, AI Practitioner & CyberSec Enthusiast." /></a><br>
+<a href="https://manasgandhi.pages.dev/" target="_blank"><img src="./cards/hero.svg" width="100%" alt="Manas Gandhi. Full-Stack Developer, AI Practitioner & CyberSec Enthusiast." /></a><br>
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=22&pause=1000&color=2F55FF&center=true&vCenter=true&width=900&height=60&lines=EXPLORING+THE+CYBER+FRONTIER.;LEARNING+AI+%26+MACHINE+LEARNING.;CRACKING+DATA+STRUCTURES+%26+ALGORITHMS.;BUILDING+COOL+STUFF+WITH+CODE." alt="Typing SVG" /><br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-about-dark.svg" /><img src="./cards/title-about-light.svg" width="100%" alt="About me" /></picture><br>
 <img src="./cards/about.svg" width="100%" alt="About Manas Gandhi: AI & ML, MERN & Backend, DSA & Systems, Cyber Security." /><br>

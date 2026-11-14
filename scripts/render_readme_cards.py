@@ -200,7 +200,7 @@ def hero():
   {text_lines(48, 338, ["I build full-stack MERN apps, applied AI & RAG", "pipelines, and packet-level security tools."], 27, f'font-family="{SANS}" font-size="18" fill="{INK_SOFT}"')}
 </g>
 <g class="f" {d(0.8)}>
-  <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">github.com/Manas-5461X</text>
+  <text x="48" y="396" font-family="{MONO}" font-size="13" fill="{INK}">manasgandhi.pages.dev</text>
   <text class="nu" x="224" y="396" font-family="{MONO}" font-size="13" fill="{TECH}">&#8599;</text>
 </g>
 <g transform="translate(520 46) scale({s}) translate(-20 -37)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
