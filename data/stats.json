@@ -5,7 +5,6 @@
   "weekly": [
     0,
     0,
-    0,
     2,
     0,
     0,
@@ -55,16 +54,10 @@
     0,
     25,
     42,
-    91
+    91,
+    0
   ],
   "weeks": [
-    [
-      {
-        "contributionCount": 0,
-        "date": "2025-11-15",
-        "weekday": 6
-      }
-    ],
     [
       {
         "contributionCount": 0,
@@ -1987,6 +1980,13 @@
         "contributionCount": 36,
         "date": "2026-11-14",
         "weekday": 6
+      }
+    ],
+    [
+      {
+        "contributionCount": 0,
+        "date": "2026-11-15",
+        "weekday": 0
       }
     ]
   ],
