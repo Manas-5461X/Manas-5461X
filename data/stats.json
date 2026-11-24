@@ -61,11 +61,6 @@
     [
       {
         "contributionCount": 0,
-        "date": "2025-11-24",
-        "weekday": 1
-      },
-      {
-        "contributionCount": 0,
         "date": "2025-11-25",
         "weekday": 2
       },
@@ -1987,6 +1982,11 @@
         "contributionCount": 4,
         "date": "2026-11-23",
         "weekday": 1
+      },
+      {
+        "contributionCount": 0,
+        "date": "2026-11-24",
+        "weekday": 2
       }
     ]
   ],
